@@ -33,7 +33,7 @@ html {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-variant-settings:
+    font-variation-settings:
     "slnt" 0,
     "CRSV" 0.5,
     "ELSH" 0,
@@ -46,6 +46,27 @@ html {
     background-color: rgb(62, 46, 210);
     width: 33vw;
     height: 69vh;
-    margin: 3vh; auto;
-    
+    margin: 3vh auto;
+    top: 11.5vh;
+    left: 34vw;
+    border-radius: 2vw;
+}
+
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 5vh;
+    left: 12vw;
+    gap: 3.5vh;
+    img{
+        height: 16vh;
+    }
+
+}
+
+#controls{
+    img{
+        height: 50vh;
+    }
 }
